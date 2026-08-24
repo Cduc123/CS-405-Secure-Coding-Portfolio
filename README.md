@@ -27,7 +27,7 @@ This presentation summarizes the Green Pace security policy and provides recomme
 These files contain coding exercises demonstrating secure coding concepts, vulnerability detection, testing, and C++ security practices completed throughout the course.
 
 ### Portfolio Journal Reflection
-[View Portfolio Reflection](./Portfolio-Reflection/CS-405-Portfolio-Journal-Reflection.docx)
+[Reflection Journal ](https://github.com/Cduc123/CS-405-Secure-Coding-Portfolio/blob/main/CS-405-Portfolio-Reflection.docx.docx)
 
 My final reflection discusses the importance of adopting secure coding standards, addressing security throughout the software development lifecycle, evaluating security risks, applying zero-trust principles, and maintaining effective security policies.
 
