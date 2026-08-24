@@ -9,7 +9,8 @@ This repository contains my final portfolio submission for CS 405: Secure Coding
 ## Portfolio Contents
 
 ### Project One: Green Pace Security Policy
-[View Project One Security Policy](./Project-One-Security-Policy/Green-Pace-Security-Policy.docx)
+[View Project One Security Policy][Green-Pace-Security-Policy.docx.docx](https://github.com/user-attachments/files/31360823/Green-Pace-Security-Policy.docx.docx)
+
 
 This project presents a secure development policy for Green Pace. The policy includes ten core security principles, ten C/C++ coding standards, vulnerability risk assessments, automated security testing recommendations, encryption policies, and the Triple-A framework.
 
