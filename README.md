@@ -17,7 +17,7 @@ This project presents a secure development policy for Green Pace. The policy inc
 ### Project Two: Security Policy Presentation
 Link: https://youtu.be/-h_0MoYpPB4
 
-[View Presentation Script][(./Project-Two-Presentation/Project-Two-Presentation-Script.docx)](https://github.com/Cduc123/CS-405-Secure-Coding-Portfolio/blob/main/Project-Two-Presentation-Script.docx.docx)
+[Presentation Script](https://github.com/Cduc123/CS-405-Secure-Coding-Portfolio/blob/main/Project-Two-Presentation-Script.docx.docx)
 
 This presentation summarizes the Green Pace security policy and provides recommendations for implementing security throughout the DevSecOps lifecycle. It includes threat prioritization, unit testing, automation, encryption, authentication, authorization, accounting, and future security recommendations.
 
