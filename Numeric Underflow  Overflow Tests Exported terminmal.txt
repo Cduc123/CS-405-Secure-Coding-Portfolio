@@ -1,0 +1,98 @@
+Starting Numeric Underflow / Overflow Tests!
+
+**************************************************
+*** Running Overflow Tests ***
+**************************************************
+Overflow Test of Type = char
+        Adding Numbers Without Overflow (0, 25, 5) = 125 | Overflow: false
+        Adding Numbers With Overflow (0, 25, 6) = 125 | Overflow: true
+Overflow Test of Type = wchar_t
+        Adding Numbers Without Overflow (0, 13107, 5) = 65535 | Overflow: false
+        Adding Numbers With Overflow (0, 13107, 6) = 65535 | Overflow: true
+Overflow Test of Type = short
+        Adding Numbers Without Overflow (0, 6553, 5) = 32765 | Overflow: false
+        Adding Numbers With Overflow (0, 6553, 6) = 32765 | Overflow: true
+Overflow Test of Type = int
+        Adding Numbers Without Overflow (0, 429496729, 5) = 2147483645 | Overflow: false
+        Adding Numbers With Overflow (0, 429496729, 6) = 2147483645 | Overflow: true
+Overflow Test of Type = long
+        Adding Numbers Without Overflow (0, 429496729, 5) = 2147483645 | Overflow: false
+        Adding Numbers With Overflow (0, 429496729, 6) = 2147483645 | Overflow: true
+Overflow Test of Type = __int64
+        Adding Numbers Without Overflow (0, 1844674407370955161, 5) = 9223372036854775805 | Overflow: false
+        Adding Numbers With Overflow (0, 1844674407370955161, 6) = 9223372036854775805 | Overflow: true
+Overflow Test of Type = unsigned char
+        Adding Numbers Without Overflow (0, 51, 5) = 255 | Overflow: false
+        Adding Numbers With Overflow (0, 51, 6) = 255 | Overflow: true
+Overflow Test of Type = unsigned short
+        Adding Numbers Without Overflow (0, 13107, 5) = 65535 | Overflow: false
+        Adding Numbers With Overflow (0, 13107, 6) = 65535 | Overflow: true
+Overflow Test of Type = unsigned int
+        Adding Numbers Without Overflow (0, 858993459, 5) = 4294967295 | Overflow: false
+        Adding Numbers With Overflow (0, 858993459, 6) = 4294967295 | Overflow: true
+Overflow Test of Type = unsigned long
+        Adding Numbers Without Overflow (0, 858993459, 5) = 4294967295 | Overflow: false
+        Adding Numbers With Overflow (0, 858993459, 6) = 4294967295 | Overflow: true
+Overflow Test of Type = unsigned __int64
+        Adding Numbers Without Overflow (0, 3689348814741910323, 5) = 18446744073709551615 | Overflow: false
+        Adding Numbers With Overflow (0, 3689348814741910323, 6) = 18446744073709551615 | Overflow: true
+Overflow Test of Type = float
+        Adding Numbers Without Overflow (0, 6.80565e+37, 5) = 3.40282e+38 | Overflow: false
+        Adding Numbers With Overflow (0, 6.80565e+37, 6) = 3.40282e+38 | Overflow: true
+Overflow Test of Type = double
+        Adding Numbers Without Overflow (0, 3.59539e+307, 5) = 1.79769e+308 | Overflow: false
+        Adding Numbers With Overflow (0, 3.59539e+307, 6) = 1.79769e+308 | Overflow: true
+Overflow Test of Type = long double
+        Adding Numbers Without Overflow (0, 3.59539e+307, 5) = 1.79769e+308 | Overflow: false
+        Adding Numbers With Overflow (0, 3.59539e+307, 6) = 1.79769e+308 | Overflow: true
+
+**************************************************
+*** Running Underflow Tests ***
+**************************************************
+Underflow Test of Type = char
+        Subtracting Numbers Without Underflow (127, 25, 5) = 2 | Underflow: false
+        Subtracting Numbers With Underflow (127, 25, 6) = 2 | Underflow: true
+Underflow Test of Type = wchar_t
+        Subtracting Numbers Without Underflow (65535, 13107, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (65535, 13107, 6) = 0 | Underflow: true
+Underflow Test of Type = short
+        Subtracting Numbers Without Underflow (32767, 6553, 5) = 2 | Underflow: false
+        Subtracting Numbers With Underflow (32767, 6553, 6) = 2 | Underflow: true
+Underflow Test of Type = int
+        Subtracting Numbers Without Underflow (2147483647, 429496729, 5) = 2 | Underflow: false
+        Subtracting Numbers With Underflow (2147483647, 429496729, 6) = 2 | Underflow: true
+Underflow Test of Type = long
+        Subtracting Numbers Without Underflow (2147483647, 429496729, 5) = 2 | Underflow: false
+        Subtracting Numbers With Underflow (2147483647, 429496729, 6) = 2 | Underflow: true
+Underflow Test of Type = __int64
+        Subtracting Numbers Without Underflow (9223372036854775807, 1844674407370955161, 5) = 2 | Underflow: false
+        Subtracting Numbers With Underflow (9223372036854775807, 1844674407370955161, 6) = 2 | Underflow: true
+Underflow Test of Type = unsigned char
+        Subtracting Numbers Without Underflow (255, 51, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (255, 51, 6) = 0 | Underflow: true
+Underflow Test of Type = unsigned short
+        Subtracting Numbers Without Underflow (65535, 13107, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (65535, 13107, 6) = 0 | Underflow: true
+Underflow Test of Type = unsigned int
+        Subtracting Numbers Without Underflow (4294967295, 858993459, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (4294967295, 858993459, 6) = 0 | Underflow: true
+Underflow Test of Type = unsigned long
+        Subtracting Numbers Without Underflow (4294967295, 858993459, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (4294967295, 858993459, 6) = 0 | Underflow: true
+Underflow Test of Type = unsigned __int64
+        Subtracting Numbers Without Underflow (18446744073709551615, 3689348814741910323, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (18446744073709551615, 3689348814741910323, 6) = 0 | Underflow: true
+Underflow Test of Type = float
+        Subtracting Numbers Without Underflow (3.40282e+38, 6.80565e+37, 5) = 0 | Underflow: false
+        Subtracting Numbers With Underflow (3.40282e+38, 6.80565e+37, 6) = 0 | Underflow: true
+Underflow Test of Type = double
+        Subtracting Numbers Without Underflow (1.79769e+308, 3.59539e+307, 5) = 9.9792e+291 | Underflow: false
+        Subtracting Numbers With Underflow (1.79769e+308, 3.59539e+307, 6) = 9.9792e+291 | Underflow: true
+Underflow Test of Type = long double
+        Subtracting Numbers Without Underflow (1.79769e+308, 3.59539e+307, 5) = 9.9792e+291 | Underflow: false
+        Subtracting Numbers With Underflow (1.79769e+308, 3.59539e+307, 6) = 9.9792e+291 | Underflow: true
+
+All Numeric Underflow / Overflow Tests Complete!
+
+C:\Users\jrduk\Downloads\NumericOverflows\NumericOverflows\Debug\NumericOverflows.exe (process 19984) exited with code 0 (0x0).
+Press any key to close this window . . .
